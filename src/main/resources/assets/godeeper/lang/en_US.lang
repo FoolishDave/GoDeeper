@@ -1,0 +1,12 @@
+tile.godeeper.fluid.superheatedWater.name=Superheated Water
+tile.godeeper.cuilGenerator.name=Cuil Generator
+tile.godeeper.darkRealityBlock.name=Dark Reality Block
+tile.godeeper.antiRealityBlock.name=Anti Reality Block
+
+item.godeeper.darkRealityStar.name=Dark Reality Star
+item.godeeper.antiRealityStar.name=Anti Reality Star
+item.godeeper.abstractionHarvester.name=Abstraction Harvester
+item.godeeper.realityGrounding.name=Reality Grounding
+item.godeeper.realityInverter.name=Reality Inverter
+
+fluid.superheatedWater=Superheated Water
