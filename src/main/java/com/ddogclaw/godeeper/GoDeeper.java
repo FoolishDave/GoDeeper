@@ -5,8 +5,10 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraftforge.common.AchievementPage;
 import net.minecraftforge.common.MinecraftForge;
 
+import com.ddogclaw.godeeper.achievement.AchievementGoDeeper;
 import com.ddogclaw.godeeper.block.GoDeeperBlocks;
 import com.ddogclaw.godeeper.block.BlockCuilGenerator;
 import com.ddogclaw.godeeper.crafting.PulverizerRecipes;
@@ -50,6 +52,7 @@ public class GoDeeper
 	public static SimpleNetworkWrapper net;
 	//public static PulverizerRecipes pulverizerHandler;
 	
+	
 	@EventHandler
 	public void PreInit(FMLPreInitializationEvent event)
 	{
@@ -78,6 +81,8 @@ public class GoDeeper
 	@EventHandler
 	public static void init(FMLInitializationEvent event)
 	{
+		AchievementGoDeeper.init();
+		
 		ItemStack realityInverterStack = new ItemStack(GoDeeperItems.realityInverter);
 		ItemStack abstractionHarvesterStack = new ItemStack(GoDeeperItems.abstractionHarvester);
 		ItemStack realityGroundingStack = new ItemStack(GoDeeperItems.realityGrounding);
